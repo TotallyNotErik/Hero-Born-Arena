@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 121615472}
   - component: {fileID: 121615471}
   - component: {fileID: 121615470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: N_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,9 +227,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 561162209}
     m_Modifications:
+    - target: {fileID: 1176944385921581364, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648107769954887968, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3173392224784681674, guid: 70739177190c21a4f9147502c3afe851, type: 3}
       propertyPath: m_Name
       value: Barrier_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173392224784681674, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286169947378576743, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718964618792211139, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976069440405968365, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6613872831607935744, guid: 70739177190c21a4f9147502c3afe851, type: 3}
       propertyPath: m_RootOrder
@@ -306,7 +330,7 @@ GameObject:
   - component: {fileID: 288408415}
   - component: {fileID: 288408414}
   - component: {fileID: 288408413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: E_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +427,7 @@ GameObject:
   - component: {fileID: 363724418}
   - component: {fileID: 363724417}
   - component: {fileID: 363724416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ramp (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +525,7 @@ GameObject:
   - component: {fileID: 559746106}
   - component: {fileID: 559746105}
   - component: {fileID: 559746104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ramp (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -596,7 +620,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 561162209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,9 +663,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 561162209}
     m_Modifications:
+    - target: {fileID: 1176944385921581364, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648107769954887968, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3173392224784681674, guid: 70739177190c21a4f9147502c3afe851, type: 3}
       propertyPath: m_Name
       value: Barrier_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173392224784681674, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286169947378576743, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718964618792211139, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976069440405968365, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6613872831607935744, guid: 70739177190c21a4f9147502c3afe851, type: 3}
       propertyPath: m_RootOrder
@@ -812,7 +860,7 @@ GameObject:
   - component: {fileID: 805575411}
   - component: {fileID: 805575410}
   - component: {fileID: 805575409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -910,7 +958,7 @@ GameObject:
   - component: {fileID: 868636759}
   - component: {fileID: 868636758}
   - component: {fileID: 868636757}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: S_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1007,7 +1055,7 @@ GameObject:
   - component: {fileID: 902445041}
   - component: {fileID: 902445040}
   - component: {fileID: 902445039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ramp (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,9 +1148,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 561162209}
     m_Modifications:
+    - target: {fileID: 1176944385921581364, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648107769954887968, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3173392224784681674, guid: 70739177190c21a4f9147502c3afe851, type: 3}
       propertyPath: m_Name
       value: Barrier_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173392224784681674, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286169947378576743, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718964618792211139, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976069440405968365, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6613872831607935744, guid: 70739177190c21a4f9147502c3afe851, type: 3}
       propertyPath: m_RootOrder
@@ -1277,7 +1349,7 @@ GameObject:
   - component: {fileID: 1243632780}
   - component: {fileID: 1243632779}
   - component: {fileID: 1243632778}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1446,7 @@ GameObject:
   - component: {fileID: 1957035448}
   - component: {fileID: 1957035447}
   - component: {fileID: 1957035446}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1544,7 @@ GameObject:
   - component: {fileID: 2137937699}
   - component: {fileID: 2137937698}
   - component: {fileID: 2137937697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: W_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1576,6 +1648,14 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2167191576313747575, guid: f1f84d95146a2194d8a5a92f1a8e9df9, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 3378504792192950110, guid: 21a1cd70c47d93f4f9d5c3211bef2cb4, type: 3}
+    - target: {fileID: 2167191576313747575, guid: f1f84d95146a2194d8a5a92f1a8e9df9, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2167191576313747578, guid: f1f84d95146a2194d8a5a92f1a8e9df9, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1629,9 +1709,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 561162209}
     m_Modifications:
+    - target: {fileID: 1176944385921581364, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648107769954887968, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3173392224784681674, guid: 70739177190c21a4f9147502c3afe851, type: 3}
       propertyPath: m_Name
       value: Barrier_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173392224784681674, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286169947378576743, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718964618792211139, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976069440405968365, guid: 70739177190c21a4f9147502c3afe851, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6613872831607935744, guid: 70739177190c21a4f9147502c3afe851, type: 3}
       propertyPath: m_RootOrder
