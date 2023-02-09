@@ -7,7 +7,7 @@ public class PlayerBehavior : MonoBehaviour
     public float jumpVelocity = 5f;
 	public float moveSpeed = 10f;
  	public float rotateSpeed = 75f;
-
+    public float gravityVel = 9.8f;
     public float distanceToGround = 0.1f;
 
     public LayerMask groundLayer;
@@ -34,7 +34,8 @@ public class PlayerBehavior : MonoBehaviour
     {
         vInput = Input.GetAxis("Vertical") * moveSpeed;
 
-	hInput = Input.GetAxis("Horizontal") * rotateSpeed;
+	    hInput = Input.GetAxis("Horizontal") * rotateSpeed;
+        _rb.AddForce(-Vector3.up * gravityVel*Time.deltaTime, ForceMode.Impulse);
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
