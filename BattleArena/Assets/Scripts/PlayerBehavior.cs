@@ -14,8 +14,9 @@ public class PlayerBehavior : MonoBehaviour
 
     public GameObject bullet;
     public float bulletSpeed = 100f;
+    public GameBehavior _gameManager;
 
-	private float vInput;
+    private float vInput;
  	private float hInput;
 
     private CapsuleCollider _col;
@@ -27,6 +28,8 @@ public class PlayerBehavior : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
 
         _col = GetComponent<CapsuleCollider>();
+
+        _gameManager = GameObject.Find("GameManager").GetComponent<GameBehavior>();
     }
 
     // Update is called once per frame
@@ -35,7 +38,7 @@ public class PlayerBehavior : MonoBehaviour
         vInput = Input.GetAxis("Vertical") * moveSpeed;
 
 	    hInput = Input.GetAxis("Horizontal") * rotateSpeed;
-        _rb.AddForce(-Vector3.up * gravityVel*Time.deltaTime, ForceMode.Impulse);
+        _rb.AddForce(-Vector3.up * gravityVel*+Time.deltaTime, ForceMode.Impulse);
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
@@ -65,6 +68,15 @@ public class PlayerBehavior : MonoBehaviour
 
 	_rb.MoveRotation(_rb.rotation * angleRot);
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name == "Enemy")
+        {
+            _gameManager.HP--;
+        }
+    }
+
     private bool IsGrounded()
     {
         Vector3 capsuleBottom = new Vector3(_col.bounds.center.x, _col.bounds.min.y, _col.bounds.center.z);
