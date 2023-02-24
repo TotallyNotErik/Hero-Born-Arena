@@ -89,7 +89,6 @@ public class EnemyBehavior : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void OnTriggerExit(Collider other)
     {
         if(other.name == "Player")
