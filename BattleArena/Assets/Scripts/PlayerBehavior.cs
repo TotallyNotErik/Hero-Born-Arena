@@ -21,7 +21,11 @@ public class PlayerBehavior : MonoBehaviour
 
     private CapsuleCollider _col;
 	private Rigidbody _rb;
-	
+
+    public delegate void JumpingEvent();
+
+    public event JumpingEvent playerJump;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +47,7 @@ public class PlayerBehavior : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             _rb.AddForce(Vector3.up * jumpVelocity, ForceMode.Impulse);
+            playerJump();
         }
 
         /* this.transform.Translate(Vector3.forward * vInput * Time.deltaTime);
@@ -59,6 +64,7 @@ public class PlayerBehavior : MonoBehaviour
             Rigidbody bulletRB = newBullet.GetComponent<Rigidbody>();
             bulletRB.velocity = this.transform.forward * bulletSpeed;
         }
+
 
  	Vector3 rotation = Vector3.up * hInput;
 
